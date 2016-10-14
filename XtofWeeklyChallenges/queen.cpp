@@ -80,6 +80,7 @@ int main()
           continue;
         cout << "again : (" << x << ", " << y << "), dir = " << dir[x][y] << endl;
         if(dir[x][y]==1)
+          dist[x][y] = 
           
           if(x-1>=0 && tab[x-1][y]!='X'){
               dir[x-1][y] = 1;
